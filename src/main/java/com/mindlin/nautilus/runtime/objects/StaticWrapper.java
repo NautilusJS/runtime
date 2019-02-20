@@ -5,8 +5,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.HashMap;
 
-import com.mindlin.jsast.impl.runtime.annotations.JSProperty;
-import com.mindlin.jsast.impl.runtime.annotations.JSStaticCallSite;
+import com.mindlin.nautilus.runtime.annotations.JSProperty;
+import com.mindlin.nautilus.runtime.annotations.JSStaticCallSite;
 
 public class StaticWrapper extends AbstractJSObject {
 	protected final Class<?> clazz;

@@ -3,8 +3,8 @@ package com.mindlin.nautilus.runtime.objects;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.mindlin.jsast.exception.JSTypeError;
-import com.mindlin.jsast.impl.runtime.JSRuntimeUtils;
+import com.mindlin.nautilus.exception.JSTypeError;
+import com.mindlin.nautilus.runtime.JSRuntimeUtils;
 
 public abstract class AbstractJSObject implements JSObject {
 	/**

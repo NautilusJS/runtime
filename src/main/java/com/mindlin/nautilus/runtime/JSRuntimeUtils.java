@@ -9,10 +9,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 
-import com.mindlin.jsast.exception.JSTypeError;
-import com.mindlin.jsast.impl.runtime.objects.JSConstants;
-import com.mindlin.jsast.impl.runtime.objects.JSObject;
-import com.mindlin.jsast.impl.runtime.objects.Symbol;
+import com.mindlin.nautilus.exception.JSTypeError;
+import com.mindlin.nautilus.runtime.objects.JSConstants;
+import com.mindlin.nautilus.runtime.objects.JSObject;
+import com.mindlin.nautilus.runtime.objects.Symbol;
 
 public class JSRuntimeUtils {
 	public static final Object UNDEFINED = JSConstants.UNDEFINED;

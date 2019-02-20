@@ -1,6 +1,6 @@
 package com.mindlin.nautilus.runtime.objects;
 
-import com.mindlin.jsast.impl.runtime.annotations.JSGlobal;
+import com.mindlin.nautilus.runtime.annotations.JSGlobal;
 
 public final class JSConstants {
 	@JSGlobal("undefined")

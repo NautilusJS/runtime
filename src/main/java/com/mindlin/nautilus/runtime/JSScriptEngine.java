@@ -9,9 +9,9 @@ import javax.script.ScriptContext;
 import javax.script.ScriptEngine;
 import javax.script.ScriptException;
 
-import com.mindlin.jsast.impl.parser.JSDialect;
-import com.mindlin.jsast.impl.parser.JSParser;
-import com.mindlin.jsast.tree.CompilationUnitTree;
+import com.mindlin.nautilus.impl.parser.JSDialect;
+import com.mindlin.nautilus.impl.parser.JSParser;
+import com.mindlin.nautilus.tree.CompilationUnitTree;
 
 public class JSScriptEngine implements ScriptEngine, Compilable {
 	NestedBindings engineBindings = new NestedBindings(JSScriptEngineFactory.getInstance().globalBindings, ScriptContext.ENGINE_SCOPE);

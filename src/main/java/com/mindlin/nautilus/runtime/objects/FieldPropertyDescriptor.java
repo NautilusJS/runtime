@@ -5,8 +5,8 @@ import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-import com.mindlin.jsast.exception.JSTypeError;
-import com.mindlin.jsast.impl.runtime.annotations.JSProperty;
+import com.mindlin.nautilus.exception.JSTypeError;
+import com.mindlin.nautilus.runtime.annotations.JSProperty;
 
 public class FieldPropertyDescriptor implements PropertyDescriptor {
 	protected final Field f;

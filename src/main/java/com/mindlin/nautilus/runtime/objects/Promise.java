@@ -2,8 +2,8 @@ package com.mindlin.nautilus.runtime.objects;
 
 import java.util.List;
 
-import com.mindlin.jsast.impl.runtime.annotations.JSProperty;
-import com.mindlin.jsast.impl.runtime.annotations.JSParam;
+import com.mindlin.nautilus.runtime.annotations.JSProperty;
+import com.mindlin.nautilus.runtime.annotations.JSParam;
 
 public class Promise {
 	@JSProperty

@@ -1,8 +1,8 @@
 package com.mindlin.nautilus.runtime.objects;
 
-import com.mindlin.jsast.impl.runtime.annotations.JSExtern;
-import com.mindlin.jsast.impl.runtime.annotations.JSProperty;
-import com.mindlin.jsast.json.JSONUtils;
+import com.mindlin.nautilus.runtime.annotations.JSExtern;
+import com.mindlin.nautilus.runtime.annotations.JSProperty;
+import com.mindlin.nautilus.json.JSONUtils;
 
 @JSExtern(isDefault = true)
 public class JSON {
