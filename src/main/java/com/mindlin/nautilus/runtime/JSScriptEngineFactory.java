@@ -41,7 +41,7 @@ public class JSScriptEngineFactory implements ScriptEngineFactory {
 	
 	protected final NestedBindings globalBindings = new NestedBindings(ScriptContext.GLOBAL_SCOPE);
 
-	private JSScriptEngineFactory() {
+	public JSScriptEngineFactory() {
 
 	}
 
