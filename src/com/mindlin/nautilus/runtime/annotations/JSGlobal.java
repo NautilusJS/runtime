@@ -1,4 +1,4 @@
-package com.mindlin.jsast.impl.runtime.annotations;
+package com.mindlin.nautilus.runtime.annotations;
 
 public @interface JSGlobal {
 	String value();

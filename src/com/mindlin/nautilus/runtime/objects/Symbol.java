@@ -1,4 +1,4 @@
-package com.mindlin.jsast.impl.runtime.objects;
+package com.mindlin.nautilus.runtime.objects;
 
 public class Symbol {
 	public static final Symbol callSite = new Symbol("Symbol.callSite");

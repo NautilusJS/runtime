@@ -1,4 +1,4 @@
-package com.mindlin.jsast.impl.runtime.annotations;
+package com.mindlin.nautilus.runtime.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

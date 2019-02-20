@@ -1,4 +1,4 @@
-package com.mindlin.jsast.impl.runtime.objects;
+package com.mindlin.nautilus.runtime.objects;
 
 public interface JSGenerator<T> {
 	T next(Object...values);
